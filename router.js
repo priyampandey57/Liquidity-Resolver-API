@@ -27,12 +27,3 @@ return res.send(result);
     })
 
 module.exports = router;
-/*const ProAddr = ContractIns[ctx.params.protocols];
-
-    const liquidityResolver = await ProAddr
-    .methods
-    .protocols_(ctx.params.address)
-    .call()
-    ctx.body = {
-        ProAddr: ctx.params.protocols_,
-        liquidityResolver*/
